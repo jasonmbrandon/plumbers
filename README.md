@@ -33,11 +33,15 @@ node ../.tmp/serve-folder.mjs "$PWD" 4392
 
 ## Deploy
 
-Static, no build step. On GitHub Pages: **Settings → Pages → Deploy from a
-branch → `main` / `/ (root)`**. On Netlify, Vercel or Cloudflare Pages: take the
-folder (or the repo) with an empty build command and `/` as the output
-directory. The only thing a host needs to leave alone is the file names:
-`index.html` at the root, everything else under `assets/`.
+Live now at <https://jasonmbrandon.github.io/plumbers/>, served by GitHub Pages
+from `main` / `/ (root)`. The relative links are what make that subpath work.
+
+Static, no build step, so any host will do. On another GitHub repo:
+**Settings → Pages → Deploy from a branch → `main` / `/ (root)`**. On Netlify,
+Vercel or Cloudflare Pages: take the folder (or the repo) with an empty build
+command and `/` as the output directory. The only thing a host needs to leave
+alone is the file names: `index.html` at the root, everything else under
+`assets/`.
 
 ## The page, top to bottom
 
