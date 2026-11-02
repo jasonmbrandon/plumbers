@@ -1,0 +1,13 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# local scratch
+screenshot*.png
+shot-*.png
