@@ -192,3 +192,20 @@ assets/sprite.svg       UI icons (phone, arrow, check, drop, mail, pin, clock)
 assets/favicon.svg      water-drop mark
 assets/fonts/           Roboto Slab + Montserrat, variable woff2
 ```
+
+## Photos (placeholders)
+
+The six service rows and the quote band use Unsplash photos, hotlinked from
+`images.unsplash.com` (free to use under the Unsplash License). They stand in
+for the client's own job photos: swap each `src`/`srcset` in the services
+section and the `quote-bg` style in `index.html` for real photos before launch.
+
+| Where | Photo | By |
+| --- | --- | --- |
+| Leaks & bursts | unsplash.com/photos/wzIjLL4KB-4 | Timur Shakerzianov |
+| Repipes | unsplash.com/photos/c5aW5Xy-O7c | Kelsey Todd |
+| Water heaters | unsplash.com/photos/kxuz4YrLxSc | Timur Shakerzianov |
+| Drains & blockages | unsplash.com/photos/ZLLm1ej0q-M | Yezhang Wang |
+| Fixtures & bathrooms | unsplash.com/photos/6YEMkA-2ji8 | Peter Muniz |
+| Leak detection | unsplash.com/photos/c314Gh8dXAo | Timur Shakerzianov |
+| Quote band texture | unsplash.com/photos/4mAcustUNPs | Matt Artz |
